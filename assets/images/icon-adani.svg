@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="52" height="52">
+  <defs>
+    <filter id="adaniIconShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+    <linearGradient id="adaniIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0088cb" />
+      <stop offset="35%" stop-color="#2d52a2" />
+      <stop offset="70%" stop-color="#5f2d87" />
+      <stop offset="100%" stop-color="#b82767" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular container matching Waaree and Microtek -->
+  <circle cx="26" cy="26" r="23" fill="#ffffff" stroke="#e8eef4" stroke-width="1.5" filter="url(#adaniIconShadow)"/>
+
+  <!-- Stylized Adani 'a' emblem in authentic gradient -->
+  <g fill="url(#adaniIconGrad)">
+    <path d="M 33 17.5 v 13.5 c 0 1.5 0.8 2 2 2 h 1 v 3.2 h -1.8 c -2.8 0 -4.7 -1.4 -5.1 -3.6 C 27.4 34.6 24 36.5 19.6 36.5 c -5.8 0 -9.8 -3.9 -9.8 -9.2 c 0 -5.4 4.3 -8.8 10.9 -9.1 l 7.4 -0.4 v -0.9 c 0 -2.9 -2 -4.5 -5.6 -4.5 c -2.7 0 -5.2 0.9 -7 2.3 l -1.7 -2.9 c 2.6 -1.9 5.8 -2.9 9.8 -2.9 c 6.4 0 9.4 3.3 9.4 7.4 z M 27.9 24.5 l -6.4 0.3 c -3.9 0.2 -6.4 2.1 -6.4 5.4 c 0 3.1 2.6 5.4 6.2 5.4 c 4.1 0 6.6 -2.7 6.6 -6.4 z"/>
+  </g>
+</svg>

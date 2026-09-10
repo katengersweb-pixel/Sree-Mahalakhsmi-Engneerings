@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" width="160" height="80">
+  <defs>
+    <linearGradient id="adaniGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0088cb" />
+      <stop offset="35%" stop-color="#2d52a2" />
+      <stop offset="68%" stop-color="#5f2d87" />
+      <stop offset="100%" stop-color="#b82767" />
+    </linearGradient>
+  </defs>
+
+  <!-- adani text with gradient -->
+  <text x="80" y="44" 
+        text-anchor="middle"
+        font-family="'Trebuchet MS', 'Segoe UI', Arial, sans-serif" 
+        font-size="44" 
+        font-weight="900" 
+        letter-spacing="-1px" 
+        fill="url(#adaniGradient)">adani</text>
+
+  <!-- Divider Line -->
+  <line x1="28" y1="52" x2="132" y2="52" stroke="#71717a" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Solar subtitle -->
+  <text x="80" y="71" 
+        text-anchor="middle"
+        font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" 
+        font-size="18" 
+        font-weight="600" 
+        letter-spacing="0.5px" 
+        fill="#52525b">Solar</text>
+</svg>

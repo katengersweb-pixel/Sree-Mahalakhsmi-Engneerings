@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <!-- WAAREE Text (Bold Italic Green) -->
+  <text x="100" y="38" 
+        text-anchor="middle"
+        font-family="'Arial Black', Arial, sans-serif" 
+        font-size="30" 
+        font-weight="900" 
+        font-style="italic" 
+        letter-spacing="0.5px" 
+        fill="#00a651">WAAREE</text>
+
+  <!-- Registered Trademark (R) -->
+  <text x="180" y="22" 
+        font-family="Arial, sans-serif" 
+        font-size="10" 
+        font-weight="700" 
+        fill="#00a651">®</text>
+
+  <!-- Green Underline bar -->
+  <rect x="18" y="44" width="164" height="3" fill="#00a651" rx="1.5"/>
+
+  <!-- SOLAR Text (Bold Italic Orange) -->
+  <text x="100" y="73" 
+        text-anchor="middle"
+        font-family="'Arial Black', Arial, sans-serif" 
+        font-size="30" 
+        font-weight="900" 
+        font-style="italic" 
+        letter-spacing="1px" 
+        fill="#f37021">SOLAR</text>
+</svg>

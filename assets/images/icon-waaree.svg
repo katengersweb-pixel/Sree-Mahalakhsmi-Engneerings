@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="52" height="52">
+  <defs>
+    <filter id="waareeIconShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Circular container matching screenshot -->
+  <circle cx="26" cy="26" r="23" fill="#ffffff" stroke="#e8eef4" stroke-width="1.5" filter="url(#waareeIconShadow)"/>
+
+  <!-- Bold Italic Green 'W' matching screenshot -->
+  <text x="25.5" y="35" 
+        text-anchor="middle"
+        font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" 
+        font-size="25" 
+        font-weight="900" 
+        font-style="italic" 
+        letter-spacing="-1px"
+        fill="#00a651">W</text>
+</svg>

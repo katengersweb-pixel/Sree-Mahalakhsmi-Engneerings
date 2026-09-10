@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" width="240" height="70">
+  <!-- Microtek Red Swoop Arrow -->
+  <g>
+    <!-- Curved sweeping arc -->
+    <path d="M 125 57 C 65 62, 18 54, 18 36 C 18 24, 28 16, 42 12" 
+          fill="none" 
+          stroke="#e31e24" 
+          stroke-width="7" 
+          stroke-linecap="round"/>
+    <!-- Arrow Head -->
+    <polygon points="34,4 58,13 46,24" fill="#e31e24" />
+  </g>
+
+  <!-- MICROTEK Bold Italic Text -->
+  <text x="36" y="51" 
+        font-family="'Impact', 'Arial Black', Arial, Helvetica, sans-serif" 
+        font-size="34" 
+        font-weight="900" 
+        font-style="italic" 
+        letter-spacing="0.5" 
+        fill="#17479e">MICROTEK</text>
+</svg>
