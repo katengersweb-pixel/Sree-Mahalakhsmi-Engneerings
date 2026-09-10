@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraTech Innovations — Enterprise Web, Cloud & AI Solutions</title>
+  <meta name="description" content="AuraTech Innovations architects mission-critical digital systems, scalable cloud infrastructure, and generative AI platforms for leading enterprises worldwide.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Site Navigation Bar
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="AuraTech Innovations Home">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="8" fill="url(#logo-grad)"/>
+          <path d="M18 7L27 24H9L18 7Z" stroke="#040914" stroke-width="2.5" stroke-linejoin="round"/>
+          <circle cx="18" cy="20" r="3" fill="#040914"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#00f2fe"/>
+              <stop offset="1" stop-color="#4facfe"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>AuraTech <span class="brand-highlight">Innovations</span></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="services.html" class="nav-link">Solutions</a>
+        <a href="case-studies.html" class="nav-link">Case Studies</a>
+        <a href="about.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm" data-open-modal="consultation">
+          <span>Book Architecture Review</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="nav-mobile-toggle" aria-label="Open Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div>
+      <div class="mobile-nav-header">
+        <span class="brand-logo">AuraTech <span class="brand-highlight">Innovations</span></span>
+        <button class="modal-close-btn mobile-nav-close" aria-label="Close Navigation">&times;</button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Enterprise Solutions</a>
+        <a href="case-studies.html">Case Studies & ROI</a>
+        <a href="about.html">About Agency</a>
+        <a href="contact.html">Request Proposal (RFP)</a>
+      </div>
+    </div>
+    <div>
+      <button class="btn btn-primary" style="width: 100%;" data-open-modal="consultation">
+        Schedule Architecture Review
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <!-- =========================================================================
+         Hero Section
+         ========================================================================= -->
+    <section class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            <span>Next-Gen Enterprise Engineering & AI</span>
+          </div>
+          <h1 class="hero-title">
+            Architecting <span class="glow-cyan">Resilient</span> Digital Futures.
+          </h1>
+          <p class="hero-subtitle">
+            We partner with visionary enterprises to engineer high-throughput cloud architectures, autonomous AI pipelines, and bespoke enterprise software that scales unconditionally.
+          </p>
+          <div class="hero-ctas">
+            <a href="#solutionsShowcase" class="btn btn-primary btn-lg">
+              <span>Explore Solutions</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#roiEstimator" class="btn btn-secondary btn-lg">
+              <span>Calculate Project ROI</span>
+            </a>
+          </div>
+          <div class="hero-trust-row">
+            <div class="hero-trust-avatars">
+              <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80')"></div>
+              <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80')"></div>
+              <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=80')"></div>
+              <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80')"></div>
+            </div>
+            <div class="hero-trust-text">
+              <strong>Trusted by 40+ Global Enterprises</strong><br>
+              Delivering $180M+ verified measurable business impact.
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal & Visual Demo -->
+        <div class="hero-visual">
+          <div class="floating-stat-badge badge-top-right">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <div>
+              <div style="font-family: var(--font-heading); font-weight: 700; color: #fff;">$2.4M Avg. Savings</div>
+              <div style="font-size: 0.75rem; color: #94a3b8;">Through Cloud Optimization</div>
+            </div>
+          </div>
+
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-controls">
+                <span class="control-dot red"></span>
+                <span class="control-dot yellow"></span>
+                <span class="control-dot green"></span>
+              </div>
+              <span class="terminal-title">auratech-telemetry://cluster-us-east-1</span>
+              <div class="terminal-status">
+                <span style="width:6px; height:6px; border-radius:50%; background:#10b981;"></span>
+                <span>SYNCED</span>
+              </div>
+            </div>
+            <div class="terminal-body">
+              <div class="term-line">
+                <span class="term-prompt">$</span>
+                <span class="term-cmd">auratech deploy --profile=enterprise-ai-mesh</span>
+              </div>
+              <div class="term-out">
+                &gt; Analyzing Kubernetes ingress topology... <span class="term-badge success">READY</span><br>
+                &gt; Provisioning Multi-Region GPU Clusters (vLLM Engine)... <span class="term-badge info">ACTIVE</span><br>
+                &gt; Latency Benchmark (p99): <strong style="color:#00f2fe;">18.4ms</strong> (4.2x speedup)<br>
+                &gt; Zero-Trust Mesh Policy Applied (SOC-2 Type II)
+              </div>
+              <div class="term-line" style="margin-top: 1rem;">
+                <span class="term-prompt">$</span>
+                <span class="term-cmd">auratech monitor --status</span>
+              </div>
+              <div class="term-out">
+                [✓] High-Availability SRE: <strong style="color:#10b981;">99.999% SLA</strong><br>
+                [✓] Data Pipelines: 2.8B records/day stream verified
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-stat-badge badge-bottom-left">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            <div>
+              <div style="font-family: var(--font-heading); font-weight: 700; color: #fff;">18.4ms p99 Latency</div>
+              <div style="font-size: 0.75rem; color: #94a3b8;">High-Throughput SLA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Metrics / Telemetry Strip
+         ========================================================================= -->
+    <section class="metrics-section">
+      <div class="container metrics-grid">
+        <div class="metric-item">
+          <div class="metric-value">
+            <span class="metric-number accent" data-target="99.999" data-decimals="3" data-suffix="%">0%</span>
+          </div>
+          <div class="metric-label">Uptime SLA Guaranteed</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">
+            <span class="metric-number" data-target="180" data-decimals="0" data-prefix="$" data-suffix="M+">$0M+</span>
+          </div>
+          <div class="metric-label">Enterprise Value Delivered</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">
+            <span class="metric-number accent" data-target="140" data-decimals="0" data-suffix="+">0+</span>
+          </div>
+          <div class="metric-label">Production Cloud Deployments</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">
+            <span class="metric-number" data-target="4.8" data-decimals="1" data-prefix="+" data-suffix="x">+0x</span>
+          </div>
+          <div class="metric-label">Average System Throughput</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Client Logo Marquee
+         ========================================================================= -->
+    <section class="marquee-section">
+      <div class="marquee-label">Trusted by Engineering & Architecture Leaders Worldwide</div>
+      <div class="marquee-track">
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <span>AETHER CLOUD</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+          <span>QUANTUM FINTECH</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 2 22 22 22"/></svg>
+          <span>APEX HEALTHCARE AI</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/></svg>
+          <span>SYNTHETIX LOGISTICS</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/></svg>
+          <span>ORBITAL ROBOTICS</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <span>AETHER CLOUD</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+          <span>QUANTUM FINTECH</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 2 22 22 22"/></svg>
+          <span>APEX HEALTHCARE AI</span>
+        </div>
+        <div class="client-logo-pill">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/></svg>
+          <span>SYNTHETIX LOGISTICS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Interactive Solutions Showcase (With Filter Tabs)
+         ========================================================================= -->
+    <section class="section solutions-section" id="solutionsShowcase">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Engineering Capabilities</div>
+          <h2 class="section-title">Enterprise Solutions Built for <span class="gradient-text">Massive Scale</span></h2>
+          <p class="section-desc">
+            Explore our multidisciplinary engineering practices designed to de-risk complex modernization, integrate generative AI, and scale cloud operations.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs-wrapper" role="tablist" aria-label="Solutions Filter">
+          <button class="filter-tab active" data-filter="all" role="tab">All Solutions</button>
+          <button class="filter-tab" data-filter="cloud" role="tab">Cloud & DevOps</button>
+          <button class="filter-tab" data-filter="ai" role="tab">AI & Machine Learning</button>
+          <button class="filter-tab" data-filter="saas" role="tab">Enterprise Web & SaaS</button>
+          <button class="filter-tab" data-filter="security" role="tab">Cybersecurity & Data</button>
+        </div>
+
+        <!-- Filterable Solutions Grid -->
+        <div class="solutions-grid">
+          <!-- Card 1: Cloud & DevOps -->
+          <article class="glass-card solution-card" data-categories="cloud">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              </div>
+              <div class="solution-category-tag">Cloud Infrastructure</div>
+              <h3 class="solution-title">Cloud Native Modernization & Kubernetes</h3>
+              <p class="solution-desc">
+                Migrate legacy monoliths into distributed, auto-scaling microservices on AWS/GCP with GitOps pipelines and multi-region resilience.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Multi-Cluster Kubernetes & Terraform GitOps</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Automated FinOps (30%+ Cloud Bill Reduction)</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Zero-Downtime Blue/Green Deployments</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">Kubernetes</span>
+                <span class="tech-badge">Terraform</span>
+                <span class="tech-badge">AWS EKS</span>
+                <span class="tech-badge">ArgoCD</span>
+                <span class="tech-badge">Prometheus</span>
+              </div>
+              <div class="solution-card-footer">
+                <a href="services.html" class="btn btn-secondary btn-sm">Architecture Specs</a>
+                <button class="btn btn-primary btn-sm" data-open-modal="consultation">Request Scope</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: AI & ML -->
+          <article class="glass-card solution-card" data-categories="ai">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12L2.1 12a10 10 0 0 0 9.9 10V12z"/></svg>
+              </div>
+              <div class="solution-category-tag">Artificial Intelligence</div>
+              <h3 class="solution-title">Autonomous AI Agents & Enterprise LLMs</h3>
+              <p class="solution-desc">
+                Deploy private LLM pipelines, specialized RAG knowledge architectures, and autonomous decision agents grounded in proprietary enterprise datasets.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Private LLM Fine-Tuning & Quantization (vLLM)</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Enterprise Hybrid RAG with Vector Search</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Guardrails, Bias Auditing & Red-Teaming</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">PyTorch</span>
+                <span class="tech-badge">LangChain</span>
+                <span class="tech-badge">Qdrant</span>
+                <span class="tech-badge">FastAPI</span>
+                <span class="tech-badge">HuggingFace</span>
+              </div>
+              <div class="solution-card-footer">
+                <a href="services.html" class="btn btn-secondary btn-sm">Architecture Specs</a>
+                <button class="btn btn-primary btn-sm" data-open-modal="consultation">Request Scope</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Enterprise SaaS -->
+          <article class="glass-card solution-card" data-categories="saas">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <div class="solution-category-tag">Digital Engineering</div>
+              <h3 class="solution-title">High-Performance Enterprise Web Apps</h3>
+              <p class="solution-desc">
+                Engineer resilient full-stack applications with sub-second response times, offline resilience, and modern design systems crafted for high conversion.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Edge-Rendered Next.js / React Single Page Apps</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>High-Throughput Go & Rust Microservices</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>WCAG 2.2 AA Accessibility & SEO Optimization</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">Next.js</span>
+                <span class="tech-badge">Golang</span>
+                <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">Redis</span>
+              </div>
+              <div class="solution-card-footer">
+                <a href="services.html" class="btn btn-secondary btn-sm">Architecture Specs</a>
+                <button class="btn btn-primary btn-sm" data-open-modal="consultation">Request Scope</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Cybersecurity & Data -->
+          <article class="glass-card solution-card" data-categories="security">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="solution-category-tag">Security & Intelligence</div>
+              <h3 class="solution-title">Zero-Trust Architecture & SecOps</h3>
+              <p class="solution-desc">
+                Harden infrastructure against zero-day threats, implement granular IAM controls, and establish automated compliance pipelines for SOC-2, ISO 27001, and HIPAA.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Continuous Cloud Security Posture Management</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Automated Secrets Governance (HashiCorp Vault)</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Real-time SIEM Threat Telemetry</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">Vault</span>
+                <span class="tech-badge">Falco</span>
+                <span class="tech-badge">Wiz</span>
+                <span class="tech-badge">OpenPolicyAgent</span>
+                <span class="tech-badge">OAuth2.0/OIDC</span>
+              </div>
+              <div class="solution-card-footer">
+                <a href="services.html" class="btn btn-secondary btn-sm">Architecture Specs</a>
+                <button class="btn btn-primary btn-sm" data-open-modal="consultation">Request Scope</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Interactive ROI & Project Scope Estimator
+         ========================================================================= -->
+    <section class="section calculator-section" id="roiEstimator">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Interactive Planning Tool</div>
+          <h2 class="section-title">Configure Scope & <span class="gradient-text">Calculate Investment</span></h2>
+          <p class="section-desc">
+            Use our dynamic project calculator to estimate sprints, dedicated engineering squad archetypes, and architectural investment in real-time.
+          </p>
+        </div>
+
+        <div class="calc-grid">
+          <!-- Configuration Form -->
+          <div class="glass-card calc-form-card">
+            <form id="roiCalculatorForm">
+              <!-- Project Type -->
+              <div class="calc-group">
+                <label class="calc-label">1. Primary Engineering Domain</label>
+                <div class="calc-options-grid">
+                  <label class="calc-radio-card">
+                    <input type="radio" name="projectType" value="cloud" checked>
+                    <div class="calc-radio-box">
+                      <span class="title">Cloud / DevOps</span>
+                      <span class="sub">Infra & K8s</span>
+                    </div>
+                  </label>
+                  <label class="calc-radio-card">
+                    <input type="radio" name="projectType" value="ai">
+                    <div class="calc-radio-box">
+                      <span class="title">AI / GenAI</span>
+                      <span class="sub">LLMs & Agents</span>
+                    </div>
+                  </label>
+                  <label class="calc-radio-card">
+                    <input type="radio" name="projectType" value="saas">
+                    <div class="calc-radio-box">
+                      <span class="title">Web SaaS</span>
+                      <span class="sub">Full-Stack App</span>
+                    </div>
+                  </label>
+                  <label class="calc-radio-card">
+                    <input type="radio" name="projectType" value="security">
+                    <div class="calc-radio-box">
+                      <span class="title">SecOps</span>
+                      <span class="sub">Zero-Trust Audit</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Scale Range -->
+              <div class="calc-group">
+                <div class="calc-range-wrapper">
+                  <div class="calc-range-header">
+                    <span>2. Target Scale & Volume:</span>
+                    <strong id="calcScaleDisplay">10K - 100K Users / Mid-Market</strong>
+                  </div>
+                  <input type="range" class="custom-range" id="calcScaleSlider" min="10" max="100" value="50" step="5">
+                </div>
+              </div>
+
+              <!-- Velocity -->
+              <div class="calc-group">
+                <label class="calc-label">3. Delivery Velocity & Timeline</label>
+                <div class="calc-options-grid">
+                  <label class="calc-radio-card">
+                    <input type="radio" name="calcVelocity" value="standard" checked>
+                    <div class="calc-radio-box">
+                      <span class="title">Standard Velocity</span>
+                      <span class="sub">Bi-weekly Sprints</span>
+                    </div>
+                  </label>
+                  <label class="calc-radio-card">
+                    <input type="radio" name="calcVelocity" value="rush">
+                    <div class="calc-radio-box">
+                      <span class="title">Accelerated Rush</span>
+                      <span class="sub">Dedicated Pods</span>
+                    </div>
+                  </label>
+                  <label class="calc-radio-card">
+                    <input type="radio" name="calcVelocity" value="relaxed">
+                    <div class="calc-radio-box">
+                      <span class="title">Continuous Advisory</span>
+                      <span class="sub">Flexible Phased</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Support Tier -->
+              <div class="calc-group" style="margin-bottom: 0;">
+                <label class="calc-label">4. Post-Launch SLA & SRE Tier</label>
+                <div class="calc-options-grid">
+                  <label class="calc-radio-card">
+                    <input type="radio" name="calcSupport" value="standard" checked>
+                    <div class="calc-radio-box">
+                      <span class="title">Standard SLA</span>
+                      <span class="sub">99.9% / Business hrs</span>
+                    </div>
+                  </label>
+                  <label class="calc-radio-card">
+                    <input type="radio" name="calcSupport" value="gold">
+                    <div class="calc-radio-box">
+                      <span class="title">Gold 24/7</span>
+                      <span class="sub">99.95% / 1hr response</span>
+                    </div>
+                  </label>
+                  <label class="calc-radio-card">
+                    <input type="radio" name="calcSupport" value="platinum">
+                    <div class="calc-radio-box">
+                      <span class="title">Platinum Mission</span>
+                      <span class="sub">99.999% / Dedicated SRE</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Dynamic Output Estimate Card -->
+          <div class="glass-card calc-result-card">
+            <div>
+              <div class="calc-result-header">
+                <div class="calc-result-tag">Estimated Architecture Scope</div>
+                <div class="calc-estimate-price" id="estCostOutput">$35,000</div>
+                <p style="font-size: 0.85rem; color: #94a3b8;">Transparent sprint-based engagement with guaranteed SLA outcomes.</p>
+              </div>
+
+              <div class="calc-result-metrics">
+                <div class="calc-metric-row">
+                  <span>Sprint Horizon:</span>
+                  <span id="estSprintsOutput">6 Sprints (~12 wks)</span>
+                </div>
+                <div class="calc-metric-row">
+                  <span>Dedicated Squad:</span>
+                  <span id="estTeamOutput">2 Cloud Architects + 2 DevOps SRE</span>
+                </div>
+                <div class="calc-metric-row">
+                  <span>Guaranteed SLA:</span>
+                  <span id="estUptimeOutput">99.9% Standard SLA</span>
+                </div>
+                <div class="calc-metric-row">
+                  <span>Recommended Stack:</span>
+                  <span id="estStackOutput" style="font-size: 0.78rem;">Kubernetes, Terraform, AWS/GCP, Datadog</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button class="btn btn-primary" style="width: 100%;" data-open-modal="consultation">
+                Lock in Architecture Proposal
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Featured Case Studies
+         ========================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Proven Track Record</div>
+          <h2 class="section-title">Case Studies in <span class="gradient-text">Engineering Impact</span></h2>
+          <p class="section-desc">
+            How we helped high-growth unicorns and Fortune 500 enterprises conquer technical bottlenecks and capture market share.
+          </p>
+        </div>
+
+        <div class="case-studies-grid">
+          <!-- Case 1 -->
+          <article class="glass-card case-card">
+            <div class="case-card-hero">
+              <span class="case-badge-pill">Global FinTech</span>
+            </div>
+            <div class="case-card-body">
+              <h3 class="case-title">Zero-Downtime Ledger Modernization</h3>
+              <p class="case-desc">
+                Migrated a transactional core processing $4.2B in annual GMV to distributed event-driven microservices with deterministic fault isolation.
+              </p>
+              <div class="case-metrics-bar">
+                <div class="case-metric-box">
+                  <strong>+340%</strong>
+                  <span>Throughput TPS</span>
+                </div>
+                <div class="case-metric-box">
+                  <strong>99.999%</strong>
+                  <span>High-Availability</span>
+                </div>
+              </div>
+              <a href="case-studies.html" class="btn btn-secondary btn-sm" style="width: 100%;">Read Architecture Case Study &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Case 2 -->
+          <article class="glass-card case-card">
+            <div class="case-card-hero" style="background: linear-gradient(135deg, #064e3b, #0f172a);">
+              <span class="case-badge-pill" style="border-color: #10b981; color: #34d399;">HealthTech AI</span>
+            </div>
+            <div class="case-card-body">
+              <h3 class="case-title">HIPAA-Compliant Clinical LLM Pipeline</h3>
+              <p class="case-desc">
+                Architected private vector retrieval mesh processing 12M patient health records with sub-second clinical synthesis and strict PII de-identification.
+              </p>
+              <div class="case-metrics-bar">
+                <div class="case-metric-box">
+                  <strong style="color: #34d399;">78%</strong>
+                  <span>Chart Review Speedup</span>
+                </div>
+                <div class="case-metric-box">
+                  <strong style="color: #34d399;">100%</strong>
+                  <span>HIPAA Compliance</span>
+                </div>
+              </div>
+              <a href="case-studies.html" class="btn btn-secondary btn-sm" style="width: 100%;">Read Architecture Case Study &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Case 3 -->
+          <article class="glass-card case-card">
+            <div class="case-card-hero" style="background: linear-gradient(135deg, #581c87, #0f172a);">
+              <span class="case-badge-pill" style="border-color: #a855f7; color: #c084fc;">Logistics Unicorn</span>
+            </div>
+            <div class="case-card-body">
+              <h3 class="case-title">Multi-Cloud Real-Time Fleet Telematics</h3>
+              <p class="case-desc">
+                Built Apache Kafka streaming backbone ingesting 450,000 IoT sensor events/sec with dynamic predictive routing and automated dispatch.
+              </p>
+              <div class="case-metrics-bar">
+                <div class="case-metric-box">
+                  <strong style="color: #c084fc;">$1.8M</strong>
+                  <span>Annual Fuel Savings</span>
+                </div>
+                <div class="case-metric-box">
+                  <strong style="color: #c084fc;">-65%</strong>
+                  <span>Dispatch Latency</span>
+                </div>
+              </div>
+              <a href="case-studies.html" class="btn btn-secondary btn-sm" style="width: 100%;">Read Architecture Case Study &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Testimonials Carousel
+         ========================================================================= -->
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Executive Testimonials</div>
+          <h2 class="section-title">Endorsed by Industry <span class="gradient-text">Technology Leaders</span></h2>
+        </div>
+
+        <div class="testimonial-slider-container">
+          <div class="testimonial-track">
+            <!-- Slide 1 -->
+            <div class="testimonial-slide">
+              <div class="glass-card testimonial-content-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <blockquote class="testimonial-quote">
+                  "AuraTech Innovations completely redefined how our engineering organization deploys software. Their Kubernetes and FinOps architecture cut our monthly AWS spend by 38% while improving our p99 response times."
+                </blockquote>
+                <div class="testimonial-author-wrap">
+                  <div class="testimonial-author-avatar" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80')"></div>
+                  <div class="testimonial-author-info">
+                    <h4>Elena Rostova</h4>
+                    <p>Chief Technology Officer, Apex FinTech</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="testimonial-slide">
+              <div class="glass-card testimonial-content-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <blockquote class="testimonial-quote">
+                  "Their generative AI squad delivered a private LLM orchestration system in 8 weeks that our in-house team estimated would take a year. Truly elite architects who deliver on every SLA promise."
+                </blockquote>
+                <div class="testimonial-author-wrap">
+                  <div class="testimonial-author-avatar" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80')"></div>
+                  <div class="testimonial-author-info">
+                    <h4>Marcus Vance</h4>
+                    <p>VP of Engineering, BioSynthetix Health</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="testimonial-slide">
+              <div class="glass-card testimonial-content-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <blockquote class="testimonial-quote">
+                  "Finding an agency with true SOC-2 zero-trust pedigree and high-scale full stack mastery is rare. AuraTech is our go-to partner for every mission-critical digital launch."
+                </blockquote>
+                <div class="testimonial-author-wrap">
+                  <div class="testimonial-author-avatar" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=80')"></div>
+                  <div class="testimonial-author-info">
+                    <h4>Sarah Jenkins</h4>
+                    <p>Head of Digital Architecture, Quantum Freight</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="slider-nav-controls">
+            <button class="slider-btn prev" aria-label="Previous Testimonial">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="slider-dots"></div>
+            <button class="slider-btn next" aria-label="Next Testimonial">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FAQ Accordion
+         ========================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Clarity & Confidence</div>
+          <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item active">
+            <button class="faq-header" aria-expanded="true">
+              <span>How quickly can AuraTech assemble and ramp up a dedicated engineering squad?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-body">
+              <p>We typically complete initial technical discovery and assign senior architects within 5 business days. Full sprint execution begins in Week 2 with guaranteed delivery milestones.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>Who owns the Intellectual Property (IP) and source code created?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-body">
+              <p>You retain 100% full legal ownership of all repositories, architectural diagrams, model weights, and custom codebases upon completion of each sprint cycle.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>What security and compliance standards do you adhere to?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-body">
+              <p>Our engineers are certified across AWS/GCP and strictly adhere to SOC-2 Type II, ISO 27001, and HIPAA compliance frameworks. We implement automated code security scanning and zero-trust IAM policies on every deployment.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>Do you provide ongoing 24/7 SRE and maintenance support?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-body">
+              <p>Yes. We offer Tier-1 to Tier-3 SRE SLAs with guaranteed 15-minute incident response times, continuous telemetry monitoring, and proactive patch management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Call to Action Banner
+         ========================================================================= -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Ready to Architect Your <span class="glow-cyan">Next Breakthrough?</span></h2>
+          <p class="cta-desc">
+            Connect directly with our Principal Solutions Architects for a complimentary 45-minute technical roadmap and architecture review.
+          </p>
+          <div class="cta-actions">
+            <button class="btn btn-primary btn-lg" data-open-modal="consultation">
+              Schedule Architecture Review
+            </button>
+            <a href="contact.html" class="btn btn-secondary btn-lg">
+              Submit Formal RFP
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span>AuraTech <span class="brand-highlight">Innovations</span></span>
+          </a>
+          <p>Enterprise digital engineering, cloud-native modernization, and autonomous AI architectures for visionary organizations.</p>
+          <div class="footer-status-pill">
+            <span style="width:6px; height:6px; border-radius:50%; background:#10b981;"></span>
+            <span>All Systems Operational (99.999%)</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <div class="footer-links">
+            <a href="services.html">Cloud Modernization</a>
+            <a href="services.html">Autonomous AI Agents</a>
+            <a href="services.html">Enterprise Web Apps</a>
+            <a href="services.html">Zero-Trust SecOps</a>
+            <a href="services.html">24/7 Dedicated SRE</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="about.html">About Agency</a>
+            <a href="about.html">Engineering Culture</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="contact.html">Global Hubs</a>
+            <a href="contact.html">Careers</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Compliance</h4>
+          <div class="footer-links">
+            <a href="#">SOC-2 Type II Certified</a>
+            <a href="#">ISO 27001 Certified</a>
+            <a href="#">HIPAA Compliance</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Engagement</a>
+          </div>
+        </div>
+
+        <div class="footer-col footer-newsletter">
+          <h4>Tech Intelligence</h4>
+          <p>Subscribe for our weekly enterprise architectural insights and whitepapers.</p>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="corporate@company.com" required>
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 AuraTech Innovations Inc. All rights reserved.
+        </div>
+        <div class="footer-socials">
+          <a href="#" class="social-icon-btn" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="social-icon-btn" aria-label="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Native <dialog> Consultation Modal
+       ========================================================================= -->
+  <dialog class="custom-modal" id="consultationModal">
+    <div class="modal-header">
+      <h3>Book Architecture Review</h3>
+      <button class="modal-close-btn" data-close-modal="consultation" aria-label="Close modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form id="consultationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-input" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Corporate Email *</label>
+            <input type="email" class="form-input" placeholder="j.doe@enterprise.com" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Company Name *</label>
+            <input type="text" class="form-input" placeholder="Acme Corp" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Project Domain *</label>
+            <select class="form-select" required>
+              <option value="cloud">Cloud Native & DevOps</option>
+              <option value="ai">Autonomous AI & LLMs</option>
+              <option value="saas">Enterprise Web App / SaaS</option>
+              <option value="security">Cybersecurity & Zero-Trust</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Target Architecture Timeline & Budget</label>
+          <select class="form-select">
+            <option value="immediate">Immediate (Next 2-4 weeks) — $30K - $75K</option>
+            <option value="quarter">Q2 Planning — $75K - $150K</option>
+            <option value="enterprise">Multi-Year Modernization — $150K+</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Project Overview / Key Technical Challenges</label>
+          <textarea class="form-textarea" rows="3" placeholder="Briefly describe your existing stack, bottleneck, or target outcomes..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">
+          Submit Request for Consultation
+        </button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Core Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

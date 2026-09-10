@@ -19,6 +19,10 @@ while ($listener.IsListening) {
 
     $filePath = Join-Path $folder $urlPath
 
+    if (Test-Path $filePath -PathType Container) {
+        $filePath = Join-Path $filePath "index.html"
+    }
+
     if (Test-Path $filePath -PathType Leaf) {
         $bytes = [System.IO.File]::ReadAllBytes($filePath)
         $ext = [System.IO.Path]::GetExtension($filePath).ToLower()

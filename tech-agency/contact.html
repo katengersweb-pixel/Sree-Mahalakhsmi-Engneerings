@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Request for Proposal — AuraTech Innovations</title>
+  <meta name="description" content="Get in touch with AuraTech Innovations. Request an enterprise RFP, schedule an architecture review, or connect with our engineering leaders.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="8" fill="url(#logo-grad)"/>
+          <path d="M18 7L27 24H9L18 7Z" stroke="#040914" stroke-width="2.5" stroke-linejoin="round"/>
+          <circle cx="18" cy="20" r="3" fill="#040914"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#00f2fe"/>
+              <stop offset="1" stop-color="#4facfe"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>AuraTech <span class="brand-highlight">Innovations</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Solutions</a>
+        <a href="case-studies.html" class="nav-link">Case Studies</a>
+        <a href="about.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm" data-open-modal="consultation">
+          <span>Book Architecture Review</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="nav-mobile-toggle" aria-label="Open Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <div class="mobile-nav-drawer">
+    <div>
+      <div class="mobile-nav-header">
+        <span class="brand-logo">AuraTech <span class="brand-highlight">Innovations</span></span>
+        <button class="modal-close-btn mobile-nav-close">&times;</button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Enterprise Solutions</a>
+        <a href="case-studies.html">Case Studies & ROI</a>
+        <a href="about.html">About Agency</a>
+        <a href="contact.html" class="active">Request Proposal (RFP)</a>
+      </div>
+    </div>
+    <div>
+      <button class="btn btn-primary" style="width: 100%;" data-open-modal="consultation">Schedule Architecture Review</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="section-tag">Direct Access</div>
+        <h1 class="page-hero-title">Initiate Your <span class="gradient-text">Project Scope</span></h1>
+        <p class="page-hero-desc">
+          Submit your Request for Proposal (RFP) or schedule an introductory technical deep-dive with our Principal Architects.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Contact & RFP Form -->
+    <section class="section">
+      <div class="container contact-grid">
+        
+        <!-- Left: RFP Submission Form -->
+        <div class="glass-card" style="padding: 2.5rem;">
+          <h2 style="font-size: 1.65rem; margin-bottom: 0.5rem;">Request for Proposal (RFP)</h2>
+          <p style="font-size: 0.95rem; margin-bottom: 2rem;">Fill out your technical requirements below. We sign mutual NDAs prior to in-depth technical analysis.</p>
+
+          <form id="mainContactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">First & Last Name *</label>
+                <input type="text" class="form-input" placeholder="Alex Morgan" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Corporate Email Address *</label>
+                <input type="email" class="form-input" placeholder="alex@company.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Company / Organization *</label>
+                <input type="text" class="form-input" placeholder="FinScale Inc." required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Current Role *</label>
+                <input type="text" class="form-input" placeholder="VP of Engineering / CTO" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Primary Engagement Domain</label>
+                <select class="form-select" required>
+                  <option value="cloud">Cloud-Native Kubernetes & DevOps</option>
+                  <option value="ai">Autonomous AI & Enterprise LLMs</option>
+                  <option value="saas">High-Scale Web SaaS & Mobile App</option>
+                  <option value="security">Zero-Trust & Compliance Audit</option>
+                  <option value="dedicated">Dedicated Engineering Pods</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Target Budget Horizon</label>
+                <select class="form-select">
+                  <option value="30k-75k">$30,000 – $75,000 (Sprint Prototype)</option>
+                  <option value="75k-150k">$75,000 – $150,000 (Core Platform Build)</option>
+                  <option value="150k+">$150,000+ (Full Modernization / SRE)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Project Scope, Existing Infrastructure & Target Outcomes</label>
+              <textarea class="form-textarea" rows="4" placeholder="Share any relevant context regarding your existing technical stack, scalability goals, or target launch deadline..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <span>Submit RFP for Architecture Review</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Right: Global Offices & Instant Booking -->
+        <div>
+          <!-- Quick Direct Info -->
+          <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+            <h3 style="font-size: 1.35rem; margin-bottom: 1.25rem; color: var(--brand-cyan);">Direct Technical Inquiry</h3>
+            <p style="font-size: 0.95rem; margin-bottom: 1.25rem;">For urgent RFP tenders, executive partnerships, or security disclosures:</p>
+            
+            <div style="display: flex; flex-direction: column; gap: 0.85rem; font-size: 0.95rem;">
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--brand-cyan)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <span style="font-family: var(--font-mono);">rfp@auratech-innovations.io</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--brand-cyan)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span style="font-family: var(--font-mono);">+1 (415) 890-3420</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span style="color: #94a3b8; font-size: 0.85rem;">Guaranteed 2-hour business response time</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Office Locations Cards -->
+          <div class="glass-card office-card">
+            <div class="office-city">🇺🇸 San Francisco (Global Headquarters)</div>
+            <p style="font-size: 0.9rem; color: #cbd5e1;">500 Howard Street, Suite 400, San Francisco, CA 94105</p>
+          </div>
+
+          <div class="glass-card office-card">
+            <div class="office-city">🇬🇧 London (EMEA Solutions)</div>
+            <p style="font-size: 0.9rem; color: #cbd5e1;">10 Finsbury Square, London EC2A 1AF, United Kingdom</p>
+          </div>
+
+          <div class="glass-card office-card">
+            <div class="office-city">🇸🇬 Singapore (APAC AI Operations)</div>
+            <p style="font-size: 0.9rem; color: #cbd5e1;">1 Marina Boulevard, #28-00, Singapore 018989</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 AuraTech Innovations Inc. All rights reserved.</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Solutions</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <dialog class="custom-modal" id="consultationModal">
+    <div class="modal-header">
+      <h3>Book Architecture Review</h3>
+      <button class="modal-close-btn" data-close-modal="consultation">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form id="consultationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-input" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Corporate Email *</label>
+            <input type="email" class="form-input" placeholder="j.doe@enterprise.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Target Architecture Timeline</label>
+          <select class="form-select">
+            <option>Immediate (Next 2-4 weeks)</option>
+            <option>Q2 Engineering Horizon</option>
+            <option>Multi-Year Digital Transformation</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Schedule 45-min Architecture Review</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

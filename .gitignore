@@ -5,3 +5,32 @@ desktop.ini
 
 # Logs
 *.log
+
+# Temporary extraction and helper scripts
+inst_step_*.json
+step_*.json
+target_step.json
+found_inst_*.txt
+content_inst_*.txt
+previous_*.txt
+previous_*.json
+code_content_extracted.html
+scratch/
+check-assets.ps1
+clean-logo.ps1
+copy-*.ps1
+create-*.ps1
+crop-*.ps1
+debug-*.ps1
+download-*.ps1
+extract-*.ps1
+fetch-*.ps1
+generate-*.ps1
+make-*.ps1
+process-*.ps1
+render-*.ps1
+assets/images/test_*.jpg
+assets/images/crop_*.jpg
+assets/images/source_*.jpg
+
+

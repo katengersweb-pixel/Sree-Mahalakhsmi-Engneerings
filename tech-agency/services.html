@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Solutions & Engineering — AuraTech Innovations</title>
+  <meta name="description" content="Discover AuraTech's enterprise engineering practices: Cloud & DevOps, Autonomous AI Agents, Web SaaS Platforms, and Zero-Trust Cybersecurity.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="8" fill="url(#logo-grad)"/>
+          <path d="M18 7L27 24H9L18 7Z" stroke="#040914" stroke-width="2.5" stroke-linejoin="round"/>
+          <circle cx="18" cy="20" r="3" fill="#040914"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#00f2fe"/>
+              <stop offset="1" stop-color="#4facfe"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>AuraTech <span class="brand-highlight">Innovations</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link active">Solutions</a>
+        <a href="case-studies.html" class="nav-link">Case Studies</a>
+        <a href="about.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm" data-open-modal="consultation">
+          <span>Book Architecture Review</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="nav-mobile-toggle" aria-label="Open Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div>
+      <div class="mobile-nav-header">
+        <span class="brand-logo">AuraTech <span class="brand-highlight">Innovations</span></span>
+        <button class="modal-close-btn mobile-nav-close">&times;</button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Enterprise Solutions</a>
+        <a href="case-studies.html">Case Studies & ROI</a>
+        <a href="about.html">About Agency</a>
+        <a href="contact.html">Request Proposal (RFP)</a>
+      </div>
+    </div>
+    <div>
+      <button class="btn btn-primary" style="width: 100%;" data-open-modal="consultation">Schedule Architecture Review</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="section-tag">Engineering Practices</div>
+        <h1 class="page-hero-title">Mission-Critical <span class="gradient-text">Solutions</span></h1>
+        <p class="page-hero-desc">
+          We combine domain-driven architecture, resilient distributed computing, and advanced AI engineering to build digital systems that outperform expectations.
+        </p>
+      </div>
+    </section>
+
+    <!-- Detailed Solutions Showcase with Filter Tabs -->
+    <section class="section">
+      <div class="container">
+        <div class="filter-tabs-wrapper" role="tablist">
+          <button class="filter-tab active" data-filter="all">All Disciplines</button>
+          <button class="filter-tab" data-filter="cloud">Cloud Architecture</button>
+          <button class="filter-tab" data-filter="ai">Generative AI & LLMs</button>
+          <button class="filter-tab" data-filter="saas">Web & SaaS Platforms</button>
+          <button class="filter-tab" data-filter="security">Security & Governance</button>
+        </div>
+
+        <div class="solutions-grid">
+          <!-- Cloud 1 -->
+          <article class="glass-card solution-card" data-categories="cloud">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              </div>
+              <div class="solution-category-tag">Cloud & Infrastructure</div>
+              <h3 class="solution-title">Multi-Cloud Kubernetes & GitOps</h3>
+              <p class="solution-desc">
+                High-availability Kubernetes cluster architecture with GitOps continuous synchronization, automatic canary rollouts, and disaster recovery replication.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Terraform & OpenTofu Infrastructure-as-Code</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>ArgoCD Automated Continuous Delivery</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Multi-AZ Failover with 0 Data Loss (RPO=0)</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">EKS/GKE</span>
+                <span class="tech-badge">Terraform</span>
+                <span class="tech-badge">Cilium</span>
+                <span class="tech-badge">Helm</span>
+              </div>
+              <div class="solution-card-footer">
+                <button class="btn btn-primary btn-sm" style="width: 100%;" data-open-modal="consultation">Request Technical Proposal</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- AI 1 -->
+          <article class="glass-card solution-card" data-categories="ai">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/></svg>
+              </div>
+              <div class="solution-category-tag">Artificial Intelligence</div>
+              <h3 class="solution-title">Enterprise Retrieval-Augmented Generation (RAG)</h3>
+              <p class="solution-desc">
+                Low-latency hybrid dense/sparse vector search mesh connected to internal document stores, databases, and APIs with sub-second verified factual citations.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Semantic Chunking & Re-ranking (Cohere/BGE)</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Role-Based Granular Access Control on Vectors</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Zero Data Leakage to Third-Party Providers</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">Qdrant</span>
+                <span class="tech-badge">Pinecone</span>
+                <span class="tech-badge">LangChain</span>
+                <span class="tech-badge">vLLM</span>
+              </div>
+              <div class="solution-card-footer">
+                <button class="btn btn-primary btn-sm" style="width: 100%;" data-open-modal="consultation">Request Technical Proposal</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- SaaS 1 -->
+          <article class="glass-card solution-card" data-categories="saas">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/></svg>
+              </div>
+              <div class="solution-category-tag">Digital Product Engineering</div>
+              <h3 class="solution-title">Edge-Rendered SaaS Web Applications</h3>
+              <p class="solution-desc">
+                High-performance React/Next.js architectures with server components, global CDN edge caching, and real-time WebSocket state synchronization.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Sub-200ms Global First Contentful Paint (FCP)</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Optimistic UI Updates & Offline IndexedDB Sync</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Multi-Tenant Row-Level Security (Postgres RLS)</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">Next.js</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">Redis</span>
+              </div>
+              <div class="solution-card-footer">
+                <button class="btn btn-primary btn-sm" style="width: 100%;" data-open-modal="consultation">Request Technical Proposal</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Security 1 -->
+          <article class="glass-card solution-card" data-categories="security">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="solution-category-tag">SecOps & Compliance</div>
+              <h3 class="solution-title">Zero-Trust Cloud Governance & DevSecOps</h3>
+              <p class="solution-desc">
+                End-to-end security automation: ephemeral developer credentials, dynamic secrets rotation with Vault, and automated vulnerability gating in CI/CD.
+              </p>
+              <div class="solution-features">
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Continuous Cloud Posture Compliance (SOC2 / ISO)</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Mutual TLS (mTLS) Service-to-Service Encryption</span>
+                </div>
+                <div class="solution-feature-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Runtime Container Anomaly Detection (Falco)</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="solution-tech-stack">
+                <span class="tech-badge">HashiCorp Vault</span>
+                <span class="tech-badge">Falco</span>
+                <span class="tech-badge">Trivy</span>
+                <span class="tech-badge">Snyk</span>
+              </div>
+              <div class="solution-card-footer">
+                <button class="btn btn-primary btn-sm" style="width: 100%;" data-open-modal="consultation">Request Technical Proposal</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engineering Methodology / Lifecycle -->
+    <section class="section" style="background: rgba(13, 18, 31, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Methodology</div>
+          <h2 class="section-title">The AuraTech <span class="gradient-text">Delivery Protocol</span></h2>
+          <p class="section-desc">Our battle-tested sprint methodology guarantees transparent progress, zero ambiguity, and continuous deployment.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="glass-card process-step-card">
+            <div class="process-step-num">01</div>
+            <h3 class="process-step-title">Architecture Discovery</h3>
+            <p class="process-step-desc">Deep-dive technical audit of legacy systems, data dependencies, and SLA requirements to produce an exact architecture blueprint.</p>
+          </div>
+
+          <div class="glass-card process-step-card">
+            <div class="process-step-num">02</div>
+            <h3 class="process-step-title">Prototype & Spikes</h3>
+            <p class="process-step-desc">Rapid validation of high-risk integrations, performance thresholds, and model accuracy before full squad scaling.</p>
+          </div>
+
+          <div class="glass-card process-step-card">
+            <div class="process-step-num">03</div>
+            <h3 class="process-step-title">Sprint Pod Execution</h3>
+            <p class="process-step-desc">Bi-weekly deliverables with demo days, automated test coverage (&gt;90%), and continuous code reviews by Principal Engineers.</p>
+          </div>
+
+          <div class="glass-card process-step-card">
+            <div class="process-step-num">04</div>
+            <h3 class="process-step-title">Production SRE Handoff</h3>
+            <p class="process-step-desc">Full telemetry setup, disaster recovery drill execution, complete documentation, and optional 24/7 dedicated support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology Radar Matrix -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Tech Stack</div>
+          <h2 class="section-title">Our Production <span class="gradient-text">Technology Radar</span></h2>
+          <p class="section-desc">We build exclusively on mature, high-performance, and open standards trusted by Tier-1 engineering organizations.</p>
+        </div>
+
+        <div class="tech-matrix-grid">
+          <div class="glass-card tech-domain-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              <span>Cloud & Orchestration</span>
+            </h3>
+            <div class="tech-pills-list">
+              <span class="tech-pill">AWS / GCP / Azure</span>
+              <span class="tech-pill">Kubernetes (K8s)</span>
+              <span class="tech-pill">Terraform & OpenTofu</span>
+              <span class="tech-pill">ArgoCD & Flux</span>
+              <span class="tech-pill">Docker</span>
+              <span class="tech-pill">Istio & Cilium Mesh</span>
+            </div>
+          </div>
+
+          <div class="glass-card tech-domain-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/></svg>
+              <span>AI & ML Infrastructure</span>
+            </h3>
+            <div class="tech-pills-list">
+              <span class="tech-pill">PyTorch</span>
+              <span class="tech-pill">vLLM Engine</span>
+              <span class="tech-pill">LangChain / LlamaIndex</span>
+              <span class="tech-pill">Qdrant Vector DB</span>
+              <span class="tech-pill">Hugging Face</span>
+              <span class="tech-pill">Ray Distributed</span>
+            </div>
+          </div>
+
+          <div class="glass-card tech-domain-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/></svg>
+              <span>Frontend & APIs</span>
+            </h3>
+            <div class="tech-pills-list">
+              <span class="tech-pill">Next.js & React</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">Golang</span>
+              <span class="tech-pill">Rust</span>
+              <span class="tech-pill">GraphQL & gRPC</span>
+              <span class="tech-pill">Node.js / Express</span>
+            </div>
+          </div>
+
+          <div class="glass-card tech-domain-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Databases & Security</span>
+            </h3>
+            <div class="tech-pills-list">
+              <span class="tech-pill">PostgreSQL & Citus</span>
+              <span class="tech-pill">Redis Enterprise</span>
+              <span class="tech-pill">Apache Kafka</span>
+              <span class="tech-pill">HashiCorp Vault</span>
+              <span class="tech-pill">Datadog</span>
+              <span class="tech-pill">Falco Runtime</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Need a Custom Technical Architecture?</h2>
+          <p class="cta-desc">
+            Let our architects evaluate your infrastructure and present a step-by-step modernization plan.
+          </p>
+          <div class="cta-actions">
+            <button class="btn btn-primary btn-lg" data-open-modal="consultation">
+              Request Technical Proposal
+            </button>
+            <a href="contact.html" class="btn btn-secondary btn-lg">
+              Contact Solutions Team
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 AuraTech Innovations Inc. All rights reserved.</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Solutions</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Dialog -->
+  <dialog class="custom-modal" id="consultationModal">
+    <div class="modal-header">
+      <h3>Book Architecture Review</h3>
+      <button class="modal-close-btn" data-close-modal="consultation">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form id="consultationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-input" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Corporate Email *</label>
+            <input type="email" class="form-input" placeholder="j.doe@enterprise.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Solution Domain</label>
+          <select class="form-select">
+            <option>Multi-Cloud & Kubernetes</option>
+            <option>Autonomous AI & Enterprise RAG</option>
+            <option>High-Scale Web & SaaS Application</option>
+            <option>Zero-Trust Security & SOC2 Compliance</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Project Description</label>
+          <textarea class="form-textarea" rows="3" placeholder="Tell us about your requirements..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

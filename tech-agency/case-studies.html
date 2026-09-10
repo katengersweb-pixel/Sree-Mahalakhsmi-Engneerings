@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Studies & Verified Impact — AuraTech Innovations</title>
+  <meta name="description" content="Explore real-world enterprise engineering case studies: FinTech transaction scaling, HealthTech AI pipelines, and global IoT telematics.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="8" fill="url(#logo-grad)"/>
+          <path d="M18 7L27 24H9L18 7Z" stroke="#040914" stroke-width="2.5" stroke-linejoin="round"/>
+          <circle cx="18" cy="20" r="3" fill="#040914"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#00f2fe"/>
+              <stop offset="1" stop-color="#4facfe"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>AuraTech <span class="brand-highlight">Innovations</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Solutions</a>
+        <a href="case-studies.html" class="nav-link active">Case Studies</a>
+        <a href="about.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm" data-open-modal="consultation">
+          <span>Book Architecture Review</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="nav-mobile-toggle" aria-label="Open Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <div class="mobile-nav-drawer">
+    <div>
+      <div class="mobile-nav-header">
+        <span class="brand-logo">AuraTech <span class="brand-highlight">Innovations</span></span>
+        <button class="modal-close-btn mobile-nav-close">&times;</button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Enterprise Solutions</a>
+        <a href="case-studies.html" class="active">Case Studies & ROI</a>
+        <a href="about.html">About Agency</a>
+        <a href="contact.html">Request Proposal (RFP)</a>
+      </div>
+    </div>
+    <div>
+      <button class="btn btn-primary" style="width: 100%;" data-open-modal="consultation">Schedule Architecture Review</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="section-tag">Measurable Outcomes</div>
+        <h1 class="page-hero-title">Engineering <span class="gradient-text">Case Studies</span></h1>
+        <p class="page-hero-desc">
+          Explore how our distributed architecture squads, AI engineers, and DevOps architects solved deep technical bottlenecks for high-scale organizations.
+        </p>
+      </div>
+    </section>
+
+    <!-- Case Studies List -->
+    <section class="section">
+      <div class="container" style="display: flex; flex-direction: column; gap: 3.5rem;">
+        
+        <!-- Case Study 1 -->
+        <div class="glass-card" style="padding: 3rem;">
+          <div class="hero-grid" style="align-items: flex-start;">
+            <div>
+              <div class="section-tag" style="margin-bottom: 0.75rem;">FinTech & Banking</div>
+              <h2 style="font-size: 2rem; margin-bottom: 1rem;">Scaling a $4.2B Core Transaction Ledger with Event Sourcing</h2>
+              <p style="margin-bottom: 1.5rem;">
+                <strong>The Challenge:</strong> A fast-growing financial institution experienced severe database lock contention and p99 transaction latencies exceeding 2.4 seconds during peak market openings.
+              </p>
+              <p style="margin-bottom: 1.5rem;">
+                <strong>Our Solution:</strong> AuraTech redesigned the synchronous relational core into an asynchronous, distributed event-sourced ledger using Apache Kafka, Golang worker pods, and PostgreSQL partitioned read-models.
+              </p>
+              <div class="solution-tech-stack" style="margin-bottom: 1.5rem;">
+                <span class="tech-badge">Golang</span>
+                <span class="tech-badge">Apache Kafka</span>
+                <span class="tech-badge">AWS EKS</span>
+                <span class="tech-badge">PostgreSQL Citus</span>
+                <span class="tech-badge">OpenTelemetry</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem;">
+              <h4 style="color: var(--brand-cyan); margin-bottom: 1.25rem;">Verified Business Impact</h4>
+              <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #fff;">+340%</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Sustained Peak Transactions Per Second (TPS)</div>
+                </div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--brand-cyan);">18ms</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">p99 Latency (down from 2,400ms)</div>
+                </div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #10b981;">99.999%</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Uptime Across 4 Global Financial Regions</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 2 -->
+        <div class="glass-card" style="padding: 3rem;">
+          <div class="hero-grid" style="align-items: flex-start;">
+            <div>
+              <div class="section-tag" style="margin-bottom: 0.75rem; border-color: rgba(16, 185, 129, 0.4); color: #34d399;">HealthTech AI</div>
+              <h2 style="font-size: 2rem; margin-bottom: 1rem;">Private Clinical LLM & Medical Chart Synthesis</h2>
+              <p style="margin-bottom: 1.5rem;">
+                <strong>The Challenge:</strong> Clinical staff spent 4.5 hours daily manually reviewing complex electronic health records (EHR), leading to diagnostic delays and provider burnout.
+              </p>
+              <p style="margin-bottom: 1.5rem;">
+                <strong>Our Solution:</strong> AuraTech developed an on-premise, air-gapped LLM inference pipeline using quantized Llama 3 models on GPU clusters with multi-vector semantic retrieval across 12M historical chart notes.
+              </p>
+              <div class="solution-tech-stack" style="margin-bottom: 1.5rem;">
+                <span class="tech-badge">PyTorch</span>
+                <span class="tech-badge">vLLM</span>
+                <span class="tech-badge">Qdrant Vector DB</span>
+                <span class="tech-badge">FastAPI</span>
+                <span class="tech-badge">HIPAA Enclave</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem;">
+              <h4 style="color: #34d399; margin-bottom: 1.25rem;">Verified Clinical Impact</h4>
+              <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #fff;">78%</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Reduction in Chart Review Overhead</div>
+                </div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #34d399;">&lt; 850ms</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Average Response Time with Direct Citations</div>
+                </div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #34d399;">100%</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Zero Data Leakage & HIPAA Audit Passed</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 3 -->
+        <div class="glass-card" style="padding: 3rem;">
+          <div class="hero-grid" style="align-items: flex-start;">
+            <div>
+              <div class="section-tag" style="margin-bottom: 0.75rem; border-color: rgba(139, 92, 246, 0.4); color: #c084fc;">Logistics & IoT</div>
+              <h2 style="font-size: 2rem; margin-bottom: 1rem;">Real-Time Global Fleet Telematics & Predictive Routing</h2>
+              <p style="margin-bottom: 1.5rem;">
+                <strong>The Challenge:</strong> A logistics carrier operating 35,000 long-haul trucks suffered from fragmented telemetry, route recalculation delays, and rising fuel expenditures.
+              </p>
+              <p style="margin-bottom: 1.5rem;">
+                <strong>Our Solution:</strong> Deployed a high-throughput IoT ingestion mesh processing 450k events/second connected to a dynamic machine learning graph routing algorithm.
+              </p>
+              <div class="solution-tech-stack" style="margin-bottom: 1.5rem;">
+                <span class="tech-badge">Rust</span>
+                <span class="tech-badge">Apache Flink</span>
+                <span class="tech-badge">TimescaleDB</span>
+                <span class="tech-badge">GCP PubSub</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem;">
+              <h4 style="color: #c084fc; margin-bottom: 1.25rem;">Verified Operational Impact</h4>
+              <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #fff;">$1.8M</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Annual Direct Fuel Savings</div>
+                </div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #c084fc;">-65%</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Dispatch Decision Latency</div>
+                </div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: #c084fc;">450K/s</div>
+                  <div style="font-size: 0.85rem; color: #94a3b8;">Real-Time Sensor Telemetry Events Ingested</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Want Similar Measurable Impact for Your Team?</h2>
+          <p class="cta-desc">
+            Book a complimentary architectural discovery session with our Principal Solutions Engineers.
+          </p>
+          <div class="cta-actions">
+            <button class="btn btn-primary btn-lg" data-open-modal="consultation">Schedule Consultation</button>
+            <a href="contact.html" class="btn btn-secondary btn-lg">Submit RFP Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 AuraTech Innovations Inc. All rights reserved.</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Solutions</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <dialog class="custom-modal" id="consultationModal">
+    <div class="modal-header">
+      <h3>Book Architecture Review</h3>
+      <button class="modal-close-btn" data-close-modal="consultation">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form id="consultationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-input" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Corporate Email *</label>
+            <input type="email" class="form-input" placeholder="j.doe@enterprise.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Case Study of Interest</label>
+          <select class="form-select">
+            <option>FinTech Ledger Modernization</option>
+            <option>Clinical AI & LLM Chart Review</option>
+            <option>Global Fleet Telematics & IoT</option>
+            <option>Custom Architectural Challenge</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Request Deep Dive</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

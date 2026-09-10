@@ -1,0 +1,24 @@
+{
+  "name": "sme-project",
+  "displayName": "SME PROJECT",
+  "version": "1.0.0",
+  "description": "SME PROJECT — Official Web Application for Sree Mahalakshmi Engineering (MG Road, Vizianagaram). Pumps, Electric Motors, Pipes, Sanitary Ware, and PM Surya Ghar Solar Solutions.",
+  "main": "index.html",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File .\\server.ps1",
+    "dev": "powershell -ExecutionPolicy Bypass -File .\\server.ps1"
+  },
+  "keywords": [
+    "sme-project",
+    "sree-mahalakshmi-engineering",
+    "vizianagaram",
+    "submersible-pumps",
+    "electric-motors",
+    "pipes",
+    "sanitary-ware",
+    "solar-energy",
+    "pm-surya-ghar"
+  ],
+  "author": "Sree Mahalakshmi Engineering",
+  "license": "ISC"
+}
